@@ -25,6 +25,11 @@
             "name": "ModuleManager"
         }
     ],
+    "conflicts": [
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
     "install": [
         {
             "find": "JSI/RasterPropMonitor",
