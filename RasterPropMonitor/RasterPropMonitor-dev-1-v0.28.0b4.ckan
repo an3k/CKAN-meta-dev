@@ -8,18 +8,24 @@
         "Mihara"
     ],
     "license": "GPL-3.0",
+    "release_status": "development",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/117471",
         "repository": "https://github.com/Mihara/RasterPropMonitor"
     },
     "version": "1:v0.28.0b4",
-    "ksp_version": "1.2.0",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "provides": [
+        "RasterPropMonitor"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
-            "name": "RasterPropMonitor-Core"
+            "name": "RasterPropMonitor-Core-dev",
+            "version": "1:v0.28.0b4"
         }
     ],
     "suggests": [
@@ -49,5 +55,6 @@
         "sha256": "BE19931E4C79789021F7AB52C81D439AF86C31155C3CE9B433F01980E672CE7D"
     },
     "download_content_type": "application/zip",
+    "x_maintained_by": "an3k",
     "x_generated_by": "netkan"
 }
