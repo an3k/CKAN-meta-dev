@@ -28,7 +28,7 @@
     "conflicts": [
         {
             "name": "RasterPropMonitor-Core",
-            "max_version": "v0.27.1"
+            "max_version": "1:v0.27.1"
         }
     ],
     "install": [
